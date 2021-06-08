@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import java.util.List;
-
+//Will add more details soon
 @Repository
 public class partsDOAHibernate implements partsDOA {
     private EntityManager entityManager;

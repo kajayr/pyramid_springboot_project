@@ -1,7 +1,7 @@
 package com.parts.demo.entity;
 
 import javax.persistence.*;
-
+//Will add more details soon
 @Entity
 @Table(name="parts")
 public class Parts {

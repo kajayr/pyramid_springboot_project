@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-
+//Will add more details soon
 @Service
 public class partsServiceImpl implements partsService{
     private partsDOA partsDOA;
