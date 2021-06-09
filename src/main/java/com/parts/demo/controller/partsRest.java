@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+//adding to portfolio
 @RestController
 public class partsRest {
     private partsService thePartService;
@@ -15,6 +15,7 @@ public class partsRest {
     public partsRest(partsService onePartService){
         thePartService = onePartService;
     }
+    @CrossOrigin
     @GetMapping("/parts")
     public List<Parts> home(){
         return thePartService.findAll();
